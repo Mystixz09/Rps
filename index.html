@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors!</h1>
+    <p class="sub">Win 5 games to win the round</p>
+    <div class="results">
+        <div class="player">
+            <p class="choice-heading">Your Choice</p>
+            <p class="choice">&#10068;</p>
+            <p class="score">Score</p>
+        </div>
+        <div class="computer">
+            <p class="choice-heading">Computer Choice</p>
+            <p class="choice">&#10068;</p>
+            <p class="score">Score</p>
+        </div>
+    </div>
+    <p class="choose">Choose One</p>
+    <div class="options">
+        <div class="cards" id="rock">
+            <button class="button" name="rock">
+                &#9994;
+            </button>
+        </div>
+        <div class="cards" id="Paper">
+            <button class="button" name="paper">
+                &#9995;
+            </button>
+        </div>
+        <div class="cards" id="Scissor">
+            <button class="button" name="scissor">
+                &#9996;
+            </button>
+        </div>
+    </div>
+    <footer>Shuyesh rps</footer>
+    <div class="final-score-parent visibility">
+        <div class="final-score">
+            <p class="who-won"></p>
+            <button class="playAgain">Play Again</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
